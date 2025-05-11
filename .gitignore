@@ -1,0 +1,48 @@
+# Python Bytecode Files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual Environment
+venv/
+*.env
+*.venv
+
+# Jupyter Notebooks
+*.ipynb_checkpoints/
+
+# Editor-based files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# PyCharm workspace file
+workspace.xml
+
+# Logs and Databases
+*.log
+*.sqlite
+
+# Sensitive or configuration files
+.env
+config.ini
+
+# Local Data Sources and their configurations
+/dataSources/
+/dataSources.local.xml
+
+# HTTP Client requests (editor-specific)
+httpRequests/
+
+# Shelf (used by some IDEs to store files temporarily)
+shelf/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Distribution package
+*.tar.gz
+*.whl
